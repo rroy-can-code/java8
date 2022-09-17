@@ -1,6 +1,7 @@
-package com.practice.java8;
+package com.practice.java8.stream;
 
 import com.practice.java8.DTO.Employee;
+import com.practice.java8.util.TestUtil;
 
 import java.util.Collection;
 import java.util.DoubleSummaryStatistics;

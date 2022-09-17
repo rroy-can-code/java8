@@ -1,4 +1,4 @@
-package com.practice.java8;
+package com.practice.java8.util;
 
 import com.practice.java8.DTO.Employee;
 
