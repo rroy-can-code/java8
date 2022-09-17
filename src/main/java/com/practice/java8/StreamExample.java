@@ -70,6 +70,6 @@ public class StreamExample {
         //Infinite Streams
         // Generate random numbers
         Stream.generate(Math::random).limit(5).forEach(System.out::println);
-       
+
     }
 }
