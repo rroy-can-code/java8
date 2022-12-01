@@ -7,7 +7,6 @@ public class FunctionExample {
         Function<Integer, Double> half = val -> val / 2.0;
         half = half.compose(a -> a * 3);
         half = half.andThen(a -> a + 3.0);
-
         System.out.println(half.apply(10));
     }
 }
